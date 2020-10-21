@@ -19,7 +19,7 @@ public class BallMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("Space") && _isJumping)
+        if (Input.GetKeyDown(KeyCode.Space) && !_isJumping)
         {
             _isJumping = true;
             _rigidbody.AddForce(0, 5f, 0, ForceMode.Impulse);
@@ -34,5 +34,18 @@ public class BallMovement : MonoBehaviour
 
         _rigidbody.AddForce(_moveHorizontal, 0, _moveVertical, ForceMode.Acceleration);
 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        _isJumping = false;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.transform.CompareTag("Coin"))
+        {
+            GameObject.Destroy(collision.gameObject);
+        }
     }
 }

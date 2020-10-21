@@ -5,8 +5,10 @@ using UnityEngine;
 public class BallMovement : MonoBehaviour
 {
 
-    Rigidbody _rigidbody;
-    float movementX, movementY;
+    private Rigidbody _rigidbody;
+    private float _moveHorizontal, _moveVertical;
+    public float forceMultiplier = 10;
+    public bool _isJumping;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,20 @@ public class BallMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //_rigidbody.AddForce(movementX, movementY, )
+        if (Input.GetKeyDown("Space") && _isJumping)
+        {
+            _isJumping = true;
+            _rigidbody.AddForce(0, 5f, 0, ForceMode.Impulse);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        _moveHorizontal = Input.GetAxis("Horizontal") * forceMultiplier;
+        _moveVertical = Input.GetAxis("Vertical") * forceMultiplier;
+
+
+        _rigidbody.AddForce(_moveHorizontal, 0, _moveVertical, ForceMode.Acceleration);
+
     }
 }

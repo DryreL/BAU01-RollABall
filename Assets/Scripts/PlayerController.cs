@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
 
                 line.enabled = true;
                 line.SetPosition(0, transform.position);
-                line.SetPosition(1, transform.position + _direction);
+                line.SetPosition(1, transform.position + _direction * 5);
             }
         }
         else

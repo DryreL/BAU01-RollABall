@@ -141,23 +141,22 @@ public class GoldenClicker : MonoBehaviour
 
 
     }
-
     public void Save()
     {
-        PlayerPrefs.GetFloat("goldenAmount", goldenAmount);
-        PlayerPrefs.GetInt("workersCount", workersCount);
-        PlayerPrefs.GetInt("toolsCount", toolsCount);
-        PlayerPrefs.GetInt("vehiclesCount", vehiclesCount);
+        PlayerPrefs.SetFloat("goldenAmount", goldenAmount);
+        PlayerPrefs.SetInt("workersCount", workersCount);
+        PlayerPrefs.SetInt("toolsCount", toolsCount);
+        PlayerPrefs.SetInt("vehiclesCount", vehiclesCount);
 
         Debug.Log("Game Saved!");
     }
 
     public void Load()
     {
-        goldenAmount = PlayerPrefs.GetFloat("goldenAmount");
-        workersCount = PlayerPrefs.GetInt("workersCount");
-        toolsCount = PlayerPrefs.GetInt("toolsCount");
-        vehiclesCount = PlayerPrefs.GetInt("vehiclesCount");
+        goldenAmount = PlayerPrefs.GetFloat("goldenAmount", 0);
+        workersCount = PlayerPrefs.GetInt("workersCount", 0);
+        toolsCount = PlayerPrefs.GetInt("toolsCount", 0);
+        vehiclesCount = PlayerPrefs.GetInt("vehiclesCount", 0);
 
         Debug.Log("Game Loaded!");
     }

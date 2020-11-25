@@ -25,21 +25,12 @@ public class GoldenClicker : MonoBehaviour
     public Button toolsButton;
     public Button vehiclesButton;
 
-    public Button QuickSave;
-    public Button QuickLoad;
-
     // Start is called before the first frame update
     void Start()
     {
         Application.targetFrameRate = 144;
 
-        PlayerPrefs.DeleteAll();
-
-        goldenAmount = PlayerPrefs.GetFloat("Golden", 0);
-
-        workersCount = PlayerPrefs.GetInt("Workers", 0);
-        toolsCount = PlayerPrefs.GetInt("Tools", 0);
-        vehiclesCount = PlayerPrefs.GetInt("Vehicles", 0);
+        Load(); // Loads Last Save
 
         workersButton.interactable = false;
         toolsButton.interactable = false;
@@ -100,7 +91,7 @@ public class GoldenClicker : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have 100 gold!");
+            //Debug.Log("You don't have 100 gold!");
             workersButton.interactable = false;
         }
 
@@ -110,7 +101,7 @@ public class GoldenClicker : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have 500 gold!");
+            //Debug.Log("You don't have 500 gold!");
             toolsButton.interactable = false;
         }
 
@@ -120,7 +111,7 @@ public class GoldenClicker : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have 2500 gold!");
+            //Debug.Log("You don't have 2500 gold!");
             vehiclesButton.interactable = false;
         }
 
@@ -159,5 +150,11 @@ public class GoldenClicker : MonoBehaviour
         vehiclesCount = PlayerPrefs.GetInt("vehiclesCount", 0);
 
         Debug.Log("Game Loaded!");
+    }
+
+    public void ResetGameClick()
+    {
+        PlayerPrefs.DeleteAll();
+        Load();
     }
 }

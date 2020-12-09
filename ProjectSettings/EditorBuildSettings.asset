@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ShooterSceneExample.unity
-    guid: 406b6c4e998314654b6d005609c53e15
+    path: Assets/RunemarkStudio/DarkFantasyKit [Free]/Scenes/DemoScene.unity
+    guid: 75ef0d4b1de37614488b333e03c01efe
   m_configObjects: {}

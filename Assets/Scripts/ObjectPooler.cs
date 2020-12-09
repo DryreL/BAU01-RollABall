@@ -5,6 +5,7 @@ public class ObjectPooler : MonoBehaviour
 {
     public GameObject prefab;
     public int size;
+    private int pushTheObject = 10;
 
     private GameObject[] objectPool;
     
@@ -19,12 +20,15 @@ public class ObjectPooler : MonoBehaviour
         }
     }
 
-    /*
     private void FixedUpdate() // 50 FPS
+    {
+        //SpawnObject();
+    }
+
+    private void Update()
     {
         SpawnObject();
     }
-    */
 
     public void SpawnObject()
     {
@@ -32,7 +36,8 @@ public class ObjectPooler : MonoBehaviour
         {
             if (!objectPool[i].activeInHierarchy) // we ve found our first disabled object
             {
-                objectPool[i].transform.position = Random.insideUnitSphere + transform.position;
+                objectPool[i].transform.position = Random.insideUnitSphere * 7 + transform.position;
+                //objectPool[i].transform.position = this.gameObject.GetComponent<Rigidbody2D>().velocity * 2;
                 objectPool[i].SetActive(true); // Activate our object
                 return; // Finish the function
             }

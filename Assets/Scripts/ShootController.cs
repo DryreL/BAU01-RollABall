@@ -29,7 +29,7 @@ public class ShootController : MonoBehaviour
         {
             delay -= Time.deltaTime;
         }
-        else if(Input.GetKey(KeyCode.Space))
+        else if(Input.GetKey(KeyCode.Space) || Input.GetMouseButton(0))
         {
             delay = shootDelay;
             //Shoot();

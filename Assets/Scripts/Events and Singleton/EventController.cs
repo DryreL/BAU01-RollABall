@@ -12,22 +12,22 @@ public class EventController : MonoBehaviour
     public static event Events onCabinet;
     public static event Events onChest;
 
-    void ChairEvent()
+    public void ChairEvent()
     {
         onChair.Invoke();
     }
 
-    void CandleEvent()
+    public void CandleEvent()
     {
         onCandle.Invoke();
     }
 
-    void CabinetEvent()
+    public void CabinetEvent()
     {
         onCabinet.Invoke();
     }
 
-    void ChestEvent()
+    public void ChestEvent()
     {
         onChest.Invoke();
     }

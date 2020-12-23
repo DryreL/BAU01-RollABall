@@ -25,6 +25,7 @@ public class CabinetEvent : MonoBehaviour
     private void OnMouseDown()
     {
         Cabinet();
+
     }
 
 }

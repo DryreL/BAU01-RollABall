@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Coin
-  - Touchable
-  - Golden
-  - YouDie
+  - Platform
+  - Projectile
+  - Key
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,11 +17,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Platforms
+  - Background
+  - Enemies
+  - PlayerInvincible
   - 
   - 
   - 

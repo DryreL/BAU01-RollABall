@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+public class Ball1 : MonoBehaviour
 {
     private Rigidbody rb;
     private float horizontal = 0;
@@ -14,8 +14,6 @@ public class Ball : MonoBehaviour
     public Joystick _Joystick;
     Vector3 direction = Vector3.zero;
     bool isTouching = false;
-
-    private Vector3 target;
 
     // Start is called before the first frame update
     void Start()
@@ -72,19 +70,4 @@ public class Ball : MonoBehaviour
         _camera.transform.rotation = Quaternion.Euler(rotation);
 
     }
-
-    /*
-    IEnumerator MoveTo(Vector3 target)
-    {
-        while(Vector3.Distance((transform.position, target) > 0.5f))
-        {
-            //Not there yet
-            transform.position = Vector3.Lerp(transform.position, target, Time.deltaTime);
-            yield return null;
-        }
-        Debug.Log("I am idle now!");
-        yield return new WaitForSeconds(2f);
-        Debug.Log("Bekledim!");
-    }
-    */
 }

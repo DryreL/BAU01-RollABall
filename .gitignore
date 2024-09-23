@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/Backups/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -21,6 +22,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vsconfig
 
 # Rider cache directory
 .idea/
@@ -61,3 +63,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Custom
+Assets/codeandweb.com/Example/
+Assets/codeandweb.com/Readme.txt.meta
+Assets/codeandweb.com/Readme.txt
+Assets/codeandweb.com/Example.meta
+Assets/Unity.VisualScripting.Generated/*
+Assets/Unity.VisualScripting.Generated.meta

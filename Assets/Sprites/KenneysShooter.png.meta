@@ -885,7 +885,7 @@ TextureImporter:
       213: 1990475335984002703
     second: UI-playerLife3_red
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -902,9 +902,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -913,9 +916,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -936,10 +939,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -951,6 +959,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -7140,9 +7162,303 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Damage-playerShip1_damage1: 4105665911387948240
+      Damage-playerShip1_damage2: 1164980795213874622
+      Damage-playerShip1_damage3: -1128788941874124129
+      Damage-playerShip2_damage1: 6464533234762811730
+      Damage-playerShip2_damage2: 2601783488835838092
+      Damage-playerShip2_damage3: -5635662844726440572
+      Damage-playerShip3_damage1: 7138141757766347509
+      Damage-playerShip3_damage2: -1955150901305836001
+      Damage-playerShip3_damage3: -4662528923769494484
+      Effects-fire00: -6197557700340239079
+      Effects-fire01: 5886080276449539075
+      Effects-fire02: -472326237934137926
+      Effects-fire03: -2381021449436616851
+      Effects-fire04: -1463064080902289781
+      Effects-fire05: -1140822855436395367
+      Effects-fire06: 349250477032652358
+      Effects-fire07: -2656931426805829695
+      Effects-fire08: -4949339689272555763
+      Effects-fire09: 2454010061673419988
+      Effects-fire10: -7387774258658221848
+      Effects-fire11: 2186610144639861730
+      Effects-fire12: -1818828208539316843
+      Effects-fire13: 5135949522036146593
+      Effects-fire14: -8361010580572469680
+      Effects-fire15: 8375772504885146900
+      Effects-fire16: -3939879946993783614
+      Effects-fire17: -1219882627453679505
+      Effects-fire18: 6496314968223166119
+      Effects-fire19: 2565816668053216891
+      Effects-shield1: 2808191986743479639
+      Effects-shield2: -69000025220345724
+      Effects-shield3: -763974197434407728
+      Effects-speed: 176101221204192224
+      Effects-star1: -3299028984645562877
+      Effects-star2: -292583902355147134
+      Effects-star3: -751527689821878229
+      Enemies-enemyBlack1: -922202717920198009
+      Enemies-enemyBlack2: -7536577978418352928
+      Enemies-enemyBlack3: -8234680447393228988
+      Enemies-enemyBlack4: 5381440920118237009
+      Enemies-enemyBlack5: 7920278627442451403
+      Enemies-enemyBlue1: -1403974876871030441
+      Enemies-enemyBlue2: -7768729725026471855
+      Enemies-enemyBlue3: 4873875900090094983
+      Enemies-enemyBlue4: -1189848319651090835
+      Enemies-enemyBlue5: 7573672676744616282
+      Enemies-enemyGreen1: -3386905292880560734
+      Enemies-enemyGreen2: -8211264532455739041
+      Enemies-enemyGreen3: -817602893202364686
+      Enemies-enemyGreen4: -2658654268074608063
+      Enemies-enemyGreen5: 5745834570721062939
+      Enemies-enemyRed1: 4262803828297277590
+      Enemies-enemyRed2: -174158770407600010
+      Enemies-enemyRed3: 5384948619560727657
+      Enemies-enemyRed4: -8226637445329578083
+      Enemies-enemyRed5: -3501622992351952360
+      Lasers-laserBlue01: 7232812098323724369
+      Lasers-laserBlue02: -8583348513845246816
+      Lasers-laserBlue03: 4959490538026415493
+      Lasers-laserBlue04: -7701938398059508922
+      Lasers-laserBlue05: 8010331490635213250
+      Lasers-laserBlue06: -906346887907007038
+      Lasers-laserBlue07: 3732625769721754589
+      Lasers-laserBlue08: -4621446165484912770
+      Lasers-laserBlue09: 5379713008122195425
+      Lasers-laserBlue10: 5899886746815373122
+      Lasers-laserBlue11: -1745007553148661094
+      Lasers-laserBlue12: 3922712001124623000
+      Lasers-laserBlue13: -662583453840847438
+      Lasers-laserBlue14: -6977430688396501706
+      Lasers-laserBlue15: -5102076801849316148
+      Lasers-laserBlue16: -3656121717436654588
+      Lasers-laserGreen01: 783127933873295131
+      Lasers-laserGreen02: 3621862908903609430
+      Lasers-laserGreen03: 4815783074379940639
+      Lasers-laserGreen04: 4471147914873322421
+      Lasers-laserGreen05: -6654954361067497503
+      Lasers-laserGreen06: -3800075371403007974
+      Lasers-laserGreen07: -1372059454704747382
+      Lasers-laserGreen08: -4965058222811399817
+      Lasers-laserGreen09: 5660011882171826548
+      Lasers-laserGreen10: 8822982876492723110
+      Lasers-laserGreen11: -4014824842982648601
+      Lasers-laserGreen12: -95705486091698116
+      Lasers-laserGreen13: 6179960308360748775
+      Lasers-laserGreen14: 5591357655080366065
+      Lasers-laserGreen15: 1931816739431809588
+      Lasers-laserGreen16: 6015269398920625320
+      Lasers-laserRed01: 1446744866199262934
+      Lasers-laserRed02: -3134067081912340247
+      Lasers-laserRed03: -371856462665151657
+      Lasers-laserRed04: -7550428360135655821
+      Lasers-laserRed05: -3878448114475848611
+      Lasers-laserRed06: -8332155583117204720
+      Lasers-laserRed07: -695162069336777381
+      Lasers-laserRed08: 4282401944671965166
+      Lasers-laserRed09: 5531997447453260712
+      Lasers-laserRed10: 8524204563047825750
+      Lasers-laserRed11: -2694496838705613927
+      Lasers-laserRed12: 8693526733449389783
+      Lasers-laserRed13: 8836148634128502531
+      Lasers-laserRed14: -7755855103720424513
+      Lasers-laserRed15: -7971710041677660222
+      Lasers-laserRed16: -4270412053039484462
+      Meteors-meteorBrown_big1: 7188677297510804468
+      Meteors-meteorBrown_big2: -707600783237472417
+      Meteors-meteorBrown_big3: -5535191112708034083
+      Meteors-meteorBrown_big4: 8698416271602742418
+      Meteors-meteorBrown_med1: 5114849876549790957
+      Meteors-meteorBrown_med3: -4988181101617483353
+      Meteors-meteorBrown_small1: 6218920389644426933
+      Meteors-meteorBrown_small2: 8118992667965841444
+      Meteors-meteorBrown_tiny1: 3085488913126180125
+      Meteors-meteorBrown_tiny2: -2603239492205470058
+      Meteors-meteorGrey_big1: -7116759495095900222
+      Meteors-meteorGrey_big2: -3656733538253955738
+      Meteors-meteorGrey_big3: -5986512383376806154
+      Meteors-meteorGrey_big4: -7087436344744838237
+      Meteors-meteorGrey_med1: 3410586128356968424
+      Meteors-meteorGrey_med2: 5866888306584676301
+      Meteors-meteorGrey_small1: -7079066086172133140
+      Meteors-meteorGrey_small2: -7727525289734727374
+      Meteors-meteorGrey_tiny1: -5482527087054457151
+      Meteors-meteorGrey_tiny2: 1050719346630735291
+      Parts-beam0: 3891199871990593474
+      Parts-beam1: 9045762097462705200
+      Parts-beam2: -3398483919241917821
+      Parts-beam3: -2354455818493119659
+      Parts-beam4: 3197512148655483712
+      Parts-beam5: -2670115848022871025
+      Parts-beam6: -8186810041154513140
+      Parts-beamLong1: 4522151812539981089
+      Parts-beamLong2: 7034432943848122968
+      Parts-cockpitBlue_0: -3726738329986280217
+      Parts-cockpitBlue_1: 788309015894821318
+      Parts-cockpitBlue_2: 843478968492773323
+      Parts-cockpitBlue_3: 8123315367703750440
+      Parts-cockpitBlue_4: 7649948741616582676
+      Parts-cockpitBlue_5: 5121371827254616885
+      Parts-cockpitBlue_6: -1208025394144661640
+      Parts-cockpitBlue_7: -5484848271042561185
+      Parts-cockpitGreen_0: -8589135889891252212
+      Parts-cockpitGreen_1: -5753403350205376089
+      Parts-cockpitGreen_2: -1786737437666331641
+      Parts-cockpitGreen_3: -4052389107446994343
+      Parts-cockpitGreen_4: -7062195221019832026
+      Parts-cockpitGreen_5: 4275690379267710321
+      Parts-cockpitGreen_6: -5656355708495845612
+      Parts-cockpitGreen_7: -6175287044887426452
+      Parts-cockpitRed_0: -130675293169019535
+      Parts-cockpitRed_1: 8900183931180480813
+      Parts-cockpitRed_2: -7236100767264904878
+      Parts-cockpitRed_3: -9201268801374031892
+      Parts-cockpitRed_4: -1708555575439806687
+      Parts-cockpitRed_5: 4950871192633821993
+      Parts-cockpitRed_6: -1484799170954579015
+      Parts-cockpitRed_7: 6904635780070112213
+      Parts-cockpitYellow_0: 1997503313827755809
+      Parts-cockpitYellow_1: 5830633160356319063
+      Parts-cockpitYellow_2: -4263194336192010725
+      Parts-cockpitYellow_3: -7285613708990239428
+      Parts-cockpitYellow_4: 5029046069964030108
+      Parts-cockpitYellow_5: 3671162116922305150
+      Parts-cockpitYellow_6: 3446031873975987204
+      Parts-cockpitYellow_7: -5073234393241960626
+      Parts-engine1: 5971160010405847729
+      Parts-engine2: 4274132080104254773
+      Parts-engine3: -3462855725822090811
+      Parts-engine4: -6376565028192164574
+      Parts-engine5: -1992558386506992618
+      Parts-gun00: -5546130414486777852
+      Parts-gun01: 8586992122470181882
+      Parts-gun02: -7867353644927469682
+      Parts-gun03: -8527247742836561833
+      Parts-gun04: -7741029445857089839
+      Parts-gun05: 3913394300824511040
+      Parts-gun06: -7121398683666688275
+      Parts-gun07: -7664980218425621780
+      Parts-gun08: -7240443588399595004
+      Parts-gun09: 850582627755671216
+      Parts-gun10: -6974928403622324663
+      Parts-scratch1: 2994015629646838311
+      Parts-scratch2: -280659405919727243
+      Parts-scratch3: -4921348969731277858
+      Parts-turretBase_big: 5306540305994446856
+      Parts-turretBase_small: 1032803019254839634
+      Parts-wingBlue_0: 8949078490931124608
+      Parts-wingBlue_1: -4824548258999786906
+      Parts-wingBlue_2: 1935859159865009518
+      Parts-wingBlue_3: 5849750122118836469
+      Parts-wingBlue_4: 5639364220119421366
+      Parts-wingBlue_5: -7969101965665094166
+      Parts-wingBlue_6: 7529737807448701946
+      Parts-wingBlue_7: -7743355565759048787
+      Parts-wingGreen_0: 2227832588531446802
+      Parts-wingGreen_1: 2157434842605956920
+      Parts-wingGreen_2: -8079063285376145233
+      Parts-wingGreen_3: -8552492922509111444
+      Parts-wingGreen_4: -1743203629637526052
+      Parts-wingGreen_5: -468264923215022828
+      Parts-wingGreen_6: 1355769857730159534
+      Parts-wingGreen_7: 7383353201734448502
+      Parts-wingRed_0: -1068054939728458740
+      Parts-wingRed_1: 1518065713653339259
+      Parts-wingRed_2: 1363769581899932556
+      Parts-wingRed_3: 8178297569866074874
+      Parts-wingRed_4: -6145957559566514035
+      Parts-wingRed_5: 585952015878850371
+      Parts-wingRed_6: 9174229588077603844
+      Parts-wingRed_7: 758802706782485469
+      Parts-wingYellow_0: 3767502994870141245
+      Parts-wingYellow_1: 6184407199059086815
+      Parts-wingYellow_2: -480912568174248984
+      Parts-wingYellow_3: 8911305064248418380
+      Parts-wingYellow_4: -1843656099480072693
+      Parts-wingYellow_5: 9100930039261827512
+      Parts-wingYellow_6: 2389149258670292070
+      Parts-wingYellow_7: -748644794523180539
+      Power-ups-bold_silver: 4378756467057750803
+      Power-ups-bolt_bronze: 1161628983093917799
+      Power-ups-bolt_gold: -8470169843080112762
+      Power-ups-pill_blue: -3203436123326956981
+      Power-ups-pill_green: 1231151824624042697
+      Power-ups-pill_red: -6209717807789412275
+      Power-ups-pill_yellow: -5935297839456827434
+      Power-ups-powerupBlue: -2474263926013870139
+      Power-ups-powerupBlue_bolt: -6112188769017787520
+      Power-ups-powerupBlue_shield: -4369667209219466970
+      Power-ups-powerupBlue_star: 3698597330555328784
+      Power-ups-powerupGreen: -6810223014478413789
+      Power-ups-powerupGreen_bolt: 6621259599903938637
+      Power-ups-powerupGreen_shield: 297342141792173009
+      Power-ups-powerupGreen_star: 4187947393214238087
+      Power-ups-powerupRed: -5333966369356478716
+      Power-ups-powerupRed_bolt: 2622098924665811705
+      Power-ups-powerupRed_shield: -6487833710325538632
+      Power-ups-powerupRed_star: -3681614070791743542
+      Power-ups-powerupYellow: -3086569916991345370
+      Power-ups-powerupYellow_bolt: -3360753361410413547
+      Power-ups-powerupYellow_shield: 6325498527668798235
+      Power-ups-powerupYellow_star: -5896096391667738036
+      Power-ups-shield_bronze: 4801967256646980354
+      Power-ups-shield_gold: 7989143771105103463
+      Power-ups-shield_silver: 3790753044518651473
+      Power-ups-star_bronze: -8288708977810934120
+      Power-ups-star_gold: 5483982423902297135
+      Power-ups-star_silver: 8534774416560895973
+      Power-ups-things_bronze: 8285735694704714951
+      Power-ups-things_gold: -6084508721034767144
+      Power-ups-things_silver: -7547062855922552889
+      UI-buttonBlue: -9040200648497739337
+      UI-buttonGreen: -1102131407987117585
+      UI-buttonRed: 3603776006034690390
+      UI-buttonYellow: 5092713950035411207
+      UI-cursor: 4028471883537681248
+      UI-numeral0: 7860619752255360067
+      UI-numeral1: -7569609111003371967
+      UI-numeral2: 3226916323551995398
+      UI-numeral3: 2727540160419705098
+      UI-numeral4: 5266852764790894695
+      UI-numeral5: 5817681613427164174
+      UI-numeral6: 3617087445068601564
+      UI-numeral7: -8408115048967574192
+      UI-numeral8: 7606337028379158162
+      UI-numeral9: -2750522824907578816
+      UI-numeralX: 3876254734299844620
+      UI-playerLife1_blue: 637074140990184506
+      UI-playerLife1_green: -6804929661701119998
+      UI-playerLife1_orange: 7245823812271031134
+      UI-playerLife1_red: 5635630842628997022
+      UI-playerLife2_blue: 1525786395277858974
+      UI-playerLife2_green: -3362146228066788466
+      UI-playerLife2_orange: 8913414379758087777
+      UI-playerLife2_red: -4897449752806787062
+      UI-playerLife3_blue: 8054311095166566071
+      UI-playerLife3_green: -7233206556715425890
+      UI-playerLife3_orange: 5409013322432545392
+      UI-playerLife3_red: 1990475335984002703
+      playerShip1_blue: -3889462688220690338
+      playerShip1_green: 1623281288381844456
+      playerShip1_orange: -7633917129059764511
+      playerShip1_red: 1114265845128736309
+      playerShip2_blue: 2778381195033210424
+      playerShip2_green: 6873494433716646753
+      playerShip2_orange: 2388148484089994892
+      playerShip2_red: -3704841498752469326
+      playerShip3_blue: 8804193357008570083
+      playerShip3_green: 6631864486736852602
+      playerShip3_orange: -1844140061241643036
+      playerShip3_red: 6239581049303083275
+      ufoBlue: 7092321450091542883
+      ufoGreen: -4104774989786747311
+      ufoRed: -7690169751753748628
+      ufoYellow: -1772713758948292661
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -6,8 +6,8 @@ using UnityEngine;
 public class Ball1 : MonoBehaviour
 {
     private Rigidbody rb;
-    private float horizontal = 0;
-    private float vertical = 0;
+    //private float horizontal = 0;
+    //private float vertical = 0;
     private float speed = 20.0f;
     public Camera _camera;
     public Vector3 touch_pos;

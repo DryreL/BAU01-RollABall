@@ -5,7 +5,7 @@ public class ObjectPooler : MonoBehaviour
 {
     public GameObject prefab;
     public int size;
-    private int pushTheObject = 10;
+    //private int pushTheObject = 10;
 
     private GameObject[] objectPool;
     

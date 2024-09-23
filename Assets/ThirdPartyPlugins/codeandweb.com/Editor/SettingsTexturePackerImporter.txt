@@ -1,0 +1,11 @@
+version: 2
+tpsheetFileNames:
+- Assets/Sprites/KenneysShooter.tpsheet
+- Assets/ThirdPartyPlugins/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/Sprites/KenneysShooter.png
+- Assets/ThirdPartyPlugins/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- Assets/ThirdPartyPlugins/codeandweb.com/Example/SpriteSheet/sprites_n.png
+enableDebugOutput: 0

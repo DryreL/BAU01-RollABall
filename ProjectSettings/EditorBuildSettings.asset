@@ -6,34 +6,34 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Platformer/Level1.unity
+    path: Assets/Scenes/2-Platformer/Level1.unity
     guid: 80e5ff8fdbb5a084296e97e2731f0bd0
   - enabled: 1
-    path: Assets/Scenes/Platformer/Level2.unity
+    path: Assets/Scenes/2-Platformer/Level2.unity
     guid: d0f1403920648594b866544daef165af
   - enabled: 1
-    path: Assets/Scenes/Platformer/Level3.unity
+    path: Assets/Scenes/2-Platformer/Level3.unity
     guid: 899e2f9ff7821344489cd9cb15bf1f89
   - enabled: 1
-    path: Assets/Scenes/Platformer/Level4.unity
+    path: Assets/Scenes/2-Platformer/Level4.unity
     guid: 3a9fc8842018d014cb7ce22ded4c574c
   - enabled: 1
-    path: Assets/Scenes/Horror/HorrorGame.unity
+    path: Assets/Scenes/4-Horror/HorrorGame.unity
     guid: 19d54aa4e90d9fb4296f1f03c356082c
   - enabled: 1
-    path: Assets/Scenes/IdleClicker/Scene4.unity
+    path: Assets/Scenes/1-IdleClicker/Scene4.unity
     guid: db24b20416fa0be40b38dee9bbfde557
   - enabled: 1
-    path: Assets/Scenes/RollABall/Scene1.unity
+    path: Assets/Scenes/0-RollABall/Scene1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/RollABall/Scene2.unity
+    path: Assets/Scenes/0-RollABall/Scene2.unity
     guid: cfdb7c46912803344845ae2f1778b9f0
   - enabled: 1
-    path: Assets/Scenes/RollABall/Scene3.unity
+    path: Assets/Scenes/0-RollABall/Scene3.unity
     guid: 48312041d7d67784985885158f493d95
   - enabled: 1
-    path: Assets/Scenes/Shooter/ShooterSceneExample.unity
+    path: Assets/Scenes/3-Shooter/ShooterSceneExample.unity
     guid: 406b6c4e998314654b6d005609c53e15
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

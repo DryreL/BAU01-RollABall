@@ -81,9 +81,13 @@ Welcome to the GAD2017 Lab project! This repository contains a collection of fiv
 ---
 
 ## Contributors
+
 **Project:** Gökdeniz Çetin
-**Instructor:** Mete Sezgin
+
+**Instructor:** Semih Bertuğ Erdem
+
 **Organisation:** Bahçeşehir University
+
 **Course:** GAD2017
 
 ---

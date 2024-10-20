@@ -36,9 +36,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if (_rigidbody.velocity.magnitude > 0.1f)
+            if (_rigidbody.linearVelocity.magnitude > 0.1f)
             {
-                _rigidbody.velocity *= .99f;
+                _rigidbody.linearVelocity *= .99f;
             }
             _trail.enabled = false;
         }

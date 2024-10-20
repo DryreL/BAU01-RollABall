@@ -17,4 +17,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Platformer/Level4.unity
     guid: 3a9fc8842018d014cb7ce22ded4c574c
+  - enabled: 1
+    path: Assets/Scenes/Horror/HorrorGame.unity
+    guid: 19d54aa4e90d9fb4296f1f03c356082c
+  - enabled: 1
+    path: Assets/Scenes/IdleClicker/Scene4.unity
+    guid: db24b20416fa0be40b38dee9bbfde557
+  - enabled: 1
+    path: Assets/Scenes/RollABall/Scene1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RollABall/Scene2.unity
+    guid: cfdb7c46912803344845ae2f1778b9f0
+  - enabled: 1
+    path: Assets/Scenes/RollABall/Scene3.unity
+    guid: 48312041d7d67784985885158f493d95
+  - enabled: 1
+    path: Assets/Scenes/Shooter/ShooterSceneExample.unity
+    guid: 406b6c4e998314654b6d005609c53e15
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
